@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Grade Calculating System</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="head">
+    <h1>Grade Calculating System</h1>
+    <div class="header">
+        
+    <div class="subject">
+        <h2>Math:</h2>
+        <input type="number" id="math" placeholder="Marks">
+        <h2>English:</h2>
+        <input type="number" id="english" placeholder="Marks">
+        <h2>Science:</h2>
+        <input type="number" id="science" placeholder="Marks">
+        <h2>Social Science:</h2>
+        <input type="number" id="ss" placeholder="Marks">
+        <h2>Hindi:</h2>
+        <input type="number" id="hindi" placeholder="Marks"><br>
+        <button id="sub-btn" onclick="submit()">CALCULATE</button>
+        <div class="span">
+            <span id="mark"> REMARK:</span><span id="remark"></span>
+        </div>
+        
+
+    </div>
+    
+    <div class="tab">
+
+     <div class="content">
+        <h2>Total Marks:</h2>
+        <h2>Obtained Marks:</h2>
+        <h2>Percentage:</h2>
+        <h2>Grade:</h2>
+     </div>
+     <div class="input">
+        <p  id="total-m"></p>
+        <p type="text" id="marks"></p>
+        <p type="text" id="percentage" maxlength="6"></p>
+        <p type="text" id="grade"></p>
+     </div>
+    </div>
+    
+    
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
